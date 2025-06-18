@@ -71,3 +71,48 @@ cv2.imwrite('cartoon.jpg', cartoon)
 
 # Download cartoon image
 files.download('cartoon.jpg')
+```
+## 📦 How to Use
+- Open the notebook in Google Colab.
+
+- Upload your image as pup.jpg (or change the filename).
+
+- Run all cells to visualize the process:
+
+- Grayscale
+
+- Blurred
+
+- Edges
+
+- Cartoonified output
+
+- The cartoonified image is saved and downloaded as cartoon.jpg.
+
+## 💡 Concepts Used
+- Grayscale conversion
+
+- Median blurring
+
+- Canny edge detection
+
+- Adaptive thresholding
+
+- Bitwise masking for cartoon effect
+
+## 📜 License
+- This project is licensed under the MIT License.
+
+## 🤝 Contributing
+- Contributions and suggestions are welcome! Feel free to open an issue or pull request.
+
+## Made with ❤️ using Python, OpenCV, and Google Colab.
+
+---
+
+### 📌 Note:
+To make the image previews (`grey.jpg`, `blur.jpg`, `canny.jpg`, etc.) visible on GitHub:
+- Make sure to run the script once and **upload the generated images to your GitHub repo**.
+- Then, GitHub will show them in your `README.md`.
+
+Would you like me to also make a `.ipynb` (Jupyter Notebook) version for this that you can directly upload to Colab or GitHub?
