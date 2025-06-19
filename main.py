@@ -1,4 +1,8 @@
 # Computer vision project
+# if you want to run this code in your local machine then you have to install opencv library
+# pip install opencv-python
+# pip install opencv-python-headless
+# try to run in code in google colab as it is written on colab and will work fine
 from google.colab.patches import cv2_imshow
 import cv2
 import io
