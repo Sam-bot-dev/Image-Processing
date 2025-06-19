@@ -14,3 +14,5 @@ cv2_imshow(Grey_img)# to see grey image
 
 grey_blur=cv2.medianBlur(Grey_img,5)# adds blur effect to image
 cv2_imshow(grey_blur)#to see blur image
+edges=cv2.Canny(grey_blur,100,200)#this will make the image black and will show only edges
+cv2_imshow(edges)
