@@ -9,3 +9,5 @@ img=cv2.imread('pup.jpg')
  # pre-processing image
  # Converting to greyscale
 Grey_img=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+
+cv2_imshow(Grey_img)# to see grey image
