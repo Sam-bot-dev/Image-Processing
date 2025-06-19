@@ -21,3 +21,11 @@ cv2_imshow(edge)
 # Original image
 print("Original image")
 cv2_imshow(img)# to see original image
+#image turned cartoon
+print("Cartoon image")
+cartoon=cv2.bitwise_and(img,img,mask=edge)
+cv2_imshow(cartoon)
+
+# To save and download image
+cv2.imwrite('cartoon.jpg',cartoon)
+files.download('cartoon.jpg')
